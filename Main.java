@@ -1,10 +1,10 @@
 public class Main {
-    private static final int numThreads = 8;
+    private static final int numThreads = 32;
     private static final int memSize = 10;
 	public static void main(String[] args) throws InterruptedException {              	                
      long tempoInicial=System.currentTimeMillis();
     
-    double[] soma = new double[20];
+    double[] soma = new double[40];
     double somaf=0;
     
     int[] memoria = new int[memSize];
